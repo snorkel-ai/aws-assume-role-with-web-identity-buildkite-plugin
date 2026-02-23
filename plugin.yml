@@ -16,6 +16,9 @@ configuration:
       type: string
     role-session-duration:
       type: integer
+    oidc-token-lifetime:
+      type: integer
+      description: "Lifetime in seconds for the OIDC token (default: 900 when role-session-duration is set)"
     region:
       type: string
     session-tags:
